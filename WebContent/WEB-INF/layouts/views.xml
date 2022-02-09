@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    
+     <!-- login -->
+    <definition name="login" extends="login-template">
+	    <put-attribute name="body" value="/WEB-INF/views/login/login.jsp" />
+	</definition>
+    
+	<!-- welcome -->
+    <definition name="welcome" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/welcome/welcome.jsp" />
+	</definition>
+	
+	<!-- supplier -->
+	 <definition name="supplier" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/supplier/supplier.jsp" />
+	</definition>
+	 <definition name="supplier-list" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/supplier/supplier-list.jsp" />
+	</definition>
+	
+	<!-- note -->
+	<definition name="note" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/note/note.jsp" />
+	</definition>
+	 <definition name="note-list" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/note/note-list.jsp" />
+	</definition>
+	
+	<!-- item -->
+	<definition name="item" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/item/item.jsp" />
+	</definition>
+	 <definition name="item-list" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/item/item-list.jsp" />
+	</definition>
+	
+	<!-- orders -->
+	<definition name="upcoming-orders" extends="main-template">
+	    <put-attribute name="body" value="/WEB-INF/views/order/upcoming-orders.jsp" />
+	</definition>
+	
+</tiles-definitions>
